@@ -1,8 +1,8 @@
 # ArduinoCloud-PythonCSV
 
-Simple CSV and [Arduino Cloud]() Python script that fetches data from a local CSV file and sends an update to the Arduino Cloud.
+Simple CSV and [Arduino Cloud](https://app.arduino.cc/) Python script that fetches data from a local CSV file and sends an update to the Arduino Cloud.
 
-> Useful for e.g. mass switching things ON/OFF, by using [variable synchronisation]().
+> Useful for e.g. mass switching things ON/OFF, by using [variable synchronisation](https://docs.arduino.cc/arduino-cloud/cloud-interface/variables#variable-synchronisation).
 
 ## Requirements
 
@@ -16,7 +16,7 @@ This project requires the [arduino-iot-cloud](https://pypi.org/project/arduino-i
     pip install arduino-iot-cloud
     ```
 
-2. Create an Arduino account, and go to [Arduino Cloud]()
+2. Create an Arduino account, and go to [Arduino Cloud](https://app.arduino.cc/)
 3. Create a Thing, and create the following variables:
 
     | Name       | Type |
